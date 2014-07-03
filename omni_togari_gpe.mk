@@ -26,6 +26,9 @@ $(call inherit-product, vendor/omni/config/common.mk)
 # Inherit from the common Open Source product configuration
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
+# Common Sony Resources
+$(call inherit-product, device/sony/common/resources.mk)
+
 # Inherit more device specific configurations
 $(call inherit-product, device/sony/togari_gpe/togari_gpe.mk)
 
