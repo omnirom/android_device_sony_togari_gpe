@@ -1,1 +1,1 @@
-add_lunch_combo cm_togari_gpe-eng
+add_lunch_combo omni_togari_gpe-userdebug
